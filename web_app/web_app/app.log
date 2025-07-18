@@ -1,0 +1,399 @@
+2025-04-08 21:16:27,136 - __main__ - INFO - YOLO model loaded successfully
+2025-04-08 21:16:27,138 - __main__ - INFO - Application started
+2025-04-08 21:16:30,678 - __main__ - INFO - YOLO model loaded successfully
+2025-04-08 21:16:30,680 - __main__ - INFO - Application started
+2025-04-08 21:16:37,326 - __main__ - INFO - Received image detection request
+2025-04-08 21:16:45,617 - __main__ - INFO - YOLO model loaded successfully
+2025-04-08 21:16:45,620 - __main__ - INFO - Application started
+2025-04-08 21:16:53,251 - __main__ - INFO - Received manual entry request
+2025-04-08 21:16:53,252 - __main__ - INFO - Manual entry completed with case-insensitive match
+2025-04-08 21:17:00,028 - __main__ - INFO - Received manual entry request
+2025-04-08 21:17:00,028 - __main__ - INFO - Manual entry completed with case-insensitive match
+2025-04-08 21:19:47,221 - __main__ - INFO - YOLO model loaded successfully
+2025-04-08 21:19:47,224 - __main__ - INFO - Application started
+2025-04-08 21:33:30,777 - __main__ - INFO - YOLO model loaded successfully
+2025-04-08 21:33:30,779 - __main__ - INFO - Application started
+2025-04-08 21:33:40,620 - __main__ - INFO - Received image detection request
+2025-04-08 21:33:43,451 - __main__ - INFO - Detected foods: {'banana': {'calories': 267, 'count': 3}}
+2025-04-08 21:33:43,451 - __main__ - INFO - Total estimated calories: 267
+2025-04-08 21:33:49,117 - __main__ - INFO - YOLO model loaded successfully
+2025-04-08 21:33:49,121 - __main__ - INFO - Application started
+2025-04-08 21:49:46,969 - __main__ - INFO - Received image detection request
+2025-04-08 21:49:52,253 - __main__ - INFO - Detected foods: {'banana': {'calories': 267, 'count': 3}}
+2025-04-08 21:49:52,253 - __main__ - INFO - Total estimated calories: 267
+2025-04-08 21:51:59,403 - __main__ - INFO - YOLO model loaded successfully
+2025-04-08 21:51:59,405 - __main__ - INFO - Application started
+2025-04-08 21:54:31,976 - __main__ - INFO - Received image detection request
+2025-04-08 21:54:39,884 - __main__ - INFO - YOLO model loaded successfully
+2025-04-08 21:54:39,886 - __main__ - INFO - Application started
+2025-04-08 21:56:21,976 - __main__ - INFO - YOLO model loaded successfully
+2025-04-08 21:56:21,981 - __main__ - INFO - Application started
+2025-04-08 21:56:34,698 - __main__ - INFO - YOLO model loaded successfully
+2025-04-08 21:56:34,700 - __main__ - INFO - Application started
+2025-04-08 21:58:08,153 - __main__ - INFO - Received image detection request
+2025-04-08 21:58:12,771 - __main__ - INFO - Detected foods: {'banana': {'calories': 267, 'count': 3}}
+2025-04-08 21:58:12,772 - __main__ - INFO - Total estimated calories: 267
+2025-04-08 22:00:44,572 - __main__ - INFO - Received image detection request
+2025-04-08 22:00:45,200 - __main__ - INFO - Detected foods: {'banana': {'calories': 267, 'count': 3}}
+2025-04-08 22:00:45,201 - __main__ - INFO - Total estimated calories: 267
+2025-04-08 22:04:37,014 - __main__ - INFO - YOLO model loaded successfully
+2025-04-08 22:04:37,018 - __main__ - INFO - Application started
+2025-04-08 22:04:47,903 - __main__ - INFO - YOLO model loaded successfully
+2025-04-08 22:04:47,908 - __main__ - INFO - Application started
+2025-04-08 22:33:37,299 - __main__ - INFO - YOLO model loaded successfully
+2025-04-08 22:33:41,697 - __main__ - INFO - YOLO model loaded successfully
+2025-04-08 22:34:27,547 - __main__ - INFO - YOLO model loaded successfully
+2025-04-08 22:34:27,549 - __main__ - INFO - Application started
+2025-04-08 22:34:31,734 - __main__ - INFO - YOLO model loaded successfully
+2025-04-08 22:34:31,737 - __main__ - INFO - Application started
+2025-04-08 22:36:53,455 - __main__ - INFO - YOLO model loaded successfully
+2025-04-08 22:36:53,457 - __main__ - INFO - Application started
+2025-04-08 22:36:57,535 - __main__ - INFO - YOLO model loaded successfully
+2025-04-08 22:36:57,537 - __main__ - INFO - Application started
+2025-04-08 22:46:19,604 - __main__ - INFO - YOLO model loaded successfully
+2025-04-08 22:46:19,608 - __main__ - INFO - Application started
+2025-04-08 22:46:24,210 - __main__ - INFO - YOLO model loaded successfully
+2025-04-08 22:46:24,212 - __main__ - INFO - Application started
+2025-04-08 22:46:31,653 - __main__ - INFO - Received image detection request
+2025-04-08 22:46:39,569 - __main__ - INFO - YOLO model loaded successfully
+2025-04-08 22:46:39,572 - __main__ - INFO - Application started
+2025-04-08 22:46:46,607 - __main__ - INFO - Received image detection request
+2025-04-08 22:46:49,013 - __main__ - INFO - Detected foods: {'banana': {'calories': 267, 'count': 3}}
+2025-04-08 22:46:49,014 - __main__ - INFO - Total estimated calories: 267
+2025-04-08 22:46:49,053 - __main__ - INFO - Serving processed image
+2025-04-08 22:47:41,994 - __main__ - INFO - Received image detection request
+2025-04-08 22:47:42,160 - __main__ - INFO - Detected foods: {'banana': {'calories': 267, 'count': 3}}
+2025-04-08 22:47:42,160 - __main__ - INFO - Total estimated calories: 267
+2025-04-08 22:47:42,186 - __main__ - INFO - Serving processed image
+2025-04-08 22:47:52,218 - __main__ - INFO - Received image detection request
+2025-04-08 22:47:52,398 - __main__ - INFO - Detected foods: {'bottle': {'calories': 0, 'count': 2}, 'pizza': {'calories': 0, 'count': 1}, 'dining table': {'calories': 0, 'count': 1}}
+2025-04-08 22:47:52,398 - __main__ - INFO - Total estimated calories: 0
+2025-04-08 22:47:57,768 - __main__ - INFO - Received image detection request
+2025-04-08 22:47:57,904 - __main__ - INFO - Detected foods: {'bottle': {'calories': 0, 'count': 2}, 'pizza': {'calories': 0, 'count': 1}, 'dining table': {'calories': 0, 'count': 1}}
+2025-04-08 22:47:57,904 - __main__ - INFO - Total estimated calories: 0
+2025-04-08 22:48:12,356 - __main__ - INFO - Received image detection request
+2025-04-08 22:48:12,508 - __main__ - INFO - Detected foods: {'bottle': {'calories': 0, 'count': 2}, 'pizza': {'calories': 0, 'count': 1}, 'dining table': {'calories': 0, 'count': 1}}
+2025-04-08 22:48:12,508 - __main__ - INFO - Total estimated calories: 0
+2025-04-08 22:48:12,544 - __main__ - INFO - Serving processed image
+2025-04-08 23:25:56,147 - __main__ - INFO - YOLO model loaded successfully
+2025-04-08 23:25:56,150 - __main__ - INFO - Application started
+2025-04-08 23:26:02,387 - __main__ - INFO - YOLO model loaded successfully
+2025-04-08 23:26:02,392 - __main__ - INFO - Application started
+2025-04-08 23:26:49,997 - __main__ - INFO - YOLO model loaded successfully
+2025-04-08 23:26:50,003 - __main__ - INFO - Application started
+2025-04-08 23:27:49,260 - __main__ - INFO - YOLO model loaded successfully
+2025-04-08 23:27:49,266 - __main__ - INFO - Application started
+2025-04-08 23:29:11,761 - __main__ - INFO - YOLO model loaded successfully
+2025-04-08 23:29:11,765 - __main__ - INFO - Application started
+2025-04-08 23:29:20,806 - __main__ - INFO - YOLO model loaded successfully
+2025-04-08 23:29:20,809 - __main__ - INFO - Application started
+2025-04-08 23:29:54,679 - __main__ - INFO - Received image detection request
+2025-04-08 23:30:00,047 - __main__ - INFO - Detected foods: {'banana': {'calories': 267, 'count': 3}}
+2025-04-08 23:30:00,048 - __main__ - INFO - Total estimated calories: 267
+2025-04-08 23:30:00,105 - __main__ - INFO - Serving processed image
+2025-04-08 23:50:32,649 - __main__ - INFO - YOLO model loaded successfully
+2025-04-08 23:50:32,655 - __main__ - INFO - Application started
+2025-04-08 23:56:07,518 - __main__ - INFO - YOLO model loaded successfully
+2025-04-08 23:56:07,522 - __main__ - INFO - Application started
+2025-04-08 23:56:12,393 - __main__ - INFO - YOLO model loaded successfully
+2025-04-08 23:56:12,395 - __main__ - INFO - Application started
+2025-04-08 23:56:22,546 - __main__ - INFO - Received image detection request
+2025-04-08 23:56:30,066 - __main__ - INFO - YOLO model loaded successfully
+2025-04-08 23:56:30,068 - __main__ - INFO - Application started
+2025-04-08 23:56:36,487 - __main__ - INFO - Received image detection request
+2025-04-08 23:56:46,073 - __main__ - INFO - YOLO model loaded successfully
+2025-04-08 23:56:46,076 - __main__ - INFO - Application started
+2025-04-08 23:56:46,121 - __main__ - INFO - Received image detection request
+2025-04-08 23:56:54,132 - __main__ - INFO - YOLO model loaded successfully
+2025-04-08 23:56:54,136 - __main__ - INFO - Application started
+2025-04-08 23:56:54,182 - __main__ - INFO - Received image detection request
+2025-04-08 23:56:56,839 - __main__ - INFO - Detected foods: {'banana': {'calories': 267.0, 'count': 3, 'weight': 300, 'calories_per_100g': 89}}
+2025-04-08 23:56:56,840 - __main__ - INFO - Total estimated calories: 267.0
+2025-04-08 23:56:56,894 - __main__ - INFO - Serving processed image
+2025-04-08 23:59:43,114 - __main__ - INFO - Received manual entry request
+2025-04-08 23:59:43,135 - __main__ - INFO - Manual entry completed with case-insensitive match
+2025-04-09 00:00:00,186 - __main__ - INFO - Received manual entry request
+2025-04-09 00:00:00,188 - __main__ - INFO - Manual entry completed with case-insensitive match
+2025-04-09 04:18:06,366 - __main__ - INFO - YOLO model loaded successfully
+2025-04-09 04:18:06,370 - __main__ - INFO - Application started
+2025-04-09 04:18:12,087 - __main__ - INFO - YOLO model loaded successfully
+2025-04-09 04:18:12,090 - __main__ - INFO - Application started
+2025-04-09 04:18:21,078 - __main__ - INFO - Received image detection request
+2025-04-09 04:18:29,570 - __main__ - INFO - YOLO model loaded successfully
+2025-04-09 04:18:29,575 - __main__ - INFO - Application started
+2025-04-09 04:18:42,940 - __main__ - INFO - Received image detection request
+2025-04-09 04:18:53,553 - __main__ - INFO - YOLO model loaded successfully
+2025-04-09 04:18:53,559 - __main__ - INFO - Application started
+2025-04-09 04:19:01,822 - __main__ - INFO - Received image detection request
+2025-04-09 04:19:13,033 - __main__ - INFO - YOLO model loaded successfully
+2025-04-09 04:19:13,036 - __main__ - INFO - Application started
+2025-04-09 04:19:18,690 - __main__ - INFO - Received image detection request
+2025-04-09 04:19:28,158 - __main__ - INFO - YOLO model loaded successfully
+2025-04-09 04:19:28,161 - __main__ - INFO - Application started
+2025-04-09 04:20:00,984 - __main__ - INFO - YOLO model loaded successfully
+2025-04-09 04:20:00,989 - __main__ - INFO - Application started
+2025-04-09 04:20:07,864 - __main__ - INFO - YOLO model loaded successfully
+2025-04-09 04:20:07,874 - __main__ - INFO - Application started
+2025-04-09 04:20:41,278 - __main__ - INFO - Received image detection request
+2025-04-09 04:20:49,140 - __main__ - INFO - Detected foods: {'banana': {'calories': 267.0, 'count': 3, 'weight': 300, 'calories_per_100g': 89}}
+2025-04-09 04:20:49,141 - __main__ - INFO - Total estimated calories: 267.0
+2025-04-09 04:20:49,217 - __main__ - INFO - Serving processed image
+2025-04-09 04:26:44,866 - __main__ - INFO - Received image detection request
+2025-04-09 04:26:45,694 - __main__ - INFO - Detected foods: {'banana': {'calories': 267.0, 'count': 3, 'weight': 300, 'calories_per_100g': 89}}
+2025-04-09 04:26:45,694 - __main__ - INFO - Total estimated calories: 267.0
+2025-04-09 04:26:45,731 - __main__ - INFO - Serving processed image
+2025-04-09 04:27:14,944 - __main__ - INFO - Received image detection request
+2025-04-09 04:27:15,273 - __main__ - INFO - Detected foods: {'bottle': {'calories': 300.0, 'count': 2, 'weight': 200, 'calories_per_100g': 150}, 'pizza': {'calories': 150.0, 'count': 1, 'weight': 100, 'calories_per_100g': 150}, 'dining table': {'calories': 150.0, 'count': 1, 'weight': 100, 'calories_per_100g': 150}}
+2025-04-09 04:27:15,274 - __main__ - INFO - Total estimated calories: 600.0
+2025-04-09 04:31:22,861 - __main__ - INFO - Received image detection request
+2025-04-09 04:31:23,551 - __main__ - INFO - Detected foods: {'banana': {'calories': 267.0, 'count': 3, 'weight': 300, 'calories_per_100g': 89}}
+2025-04-09 04:31:23,552 - __main__ - INFO - Total estimated calories: 267.0
+2025-04-09 04:31:23,591 - __main__ - INFO - Serving processed image
+2025-04-09 04:31:49,048 - __main__ - INFO - YOLO model loaded successfully
+2025-04-09 04:31:49,051 - __main__ - INFO - Application started
+2025-04-09 04:31:52,743 - __main__ - INFO - YOLO model loaded successfully
+2025-04-09 04:31:52,775 - __main__ - INFO - Application started
+2025-04-09 04:32:06,938 - __main__ - INFO - Received image detection request
+2025-04-09 04:32:10,476 - __main__ - INFO - Detected foods: {'banana': {'calories': 267.0, 'count': 3, 'weight': 300, 'calories_per_100g': 89}}
+2025-04-09 04:32:10,476 - __main__ - INFO - Total estimated calories: 267.0
+2025-04-09 04:32:10,516 - __main__ - INFO - Serving processed image
+2025-04-09 04:51:32,485 - __main__ - INFO - YOLO model loaded successfully
+2025-04-09 04:51:32,488 - __main__ - INFO - Application started
+2025-04-09 04:51:36,363 - __main__ - INFO - YOLO model loaded successfully
+2025-04-09 04:51:36,365 - __main__ - INFO - Application started
+2025-04-09 04:51:53,809 - __main__ - INFO - Received image detection request
+2025-04-09 04:51:57,381 - __main__ - INFO - Detected foods: {'banana': {'calories': 267.0, 'count': 3, 'weight': 300, 'calories_per_100g': 89}}
+2025-04-09 04:51:57,382 - __main__ - INFO - Total estimated calories: 267.0
+2025-04-09 04:51:57,437 - __main__ - INFO - Serving processed image
+2025-04-09 04:52:16,018 - __main__ - INFO - Received manual entry request
+2025-04-09 04:52:16,018 - __main__ - INFO - Manual entry completed with case-insensitive match
+2025-04-09 04:53:25,670 - __main__ - INFO - YOLO model loaded successfully
+2025-04-09 04:53:25,678 - __main__ - INFO - Application started
+2025-04-09 20:34:03,409 - __main__ - INFO - YOLO model loaded successfully
+2025-04-09 20:34:03,414 - __main__ - INFO - Application started
+2025-04-09 20:34:08,501 - __main__ - INFO - YOLO model loaded successfully
+2025-04-09 20:34:08,503 - __main__ - INFO - Application started
+2025-04-09 20:34:29,575 - __main__ - INFO - Received image detection request
+2025-04-09 20:34:35,576 - __main__ - INFO - YOLO model loaded successfully
+2025-04-09 20:34:35,578 - __main__ - INFO - Application started
+2025-04-09 20:34:48,264 - __main__ - INFO - Received image detection request
+2025-04-09 20:34:54,177 - __main__ - INFO - YOLO model loaded successfully
+2025-04-09 20:34:54,179 - __main__ - INFO - Application started
+2025-04-09 20:35:00,579 - __main__ - INFO - Received image detection request
+2025-04-09 20:35:06,696 - __main__ - INFO - YOLO model loaded successfully
+2025-04-09 20:35:06,697 - __main__ - INFO - Application started
+2025-04-09 20:35:06,746 - __main__ - INFO - Received image detection request
+2025-04-09 20:35:12,069 - __main__ - INFO - YOLO model loaded successfully
+2025-04-09 20:35:12,071 - __main__ - INFO - Application started
+2025-04-09 20:35:16,474 - __main__ - INFO - Received image detection request
+2025-04-09 20:35:22,632 - __main__ - INFO - YOLO model loaded successfully
+2025-04-09 20:35:22,637 - __main__ - INFO - Application started
+2025-04-09 20:35:22,675 - __main__ - INFO - Received image detection request
+2025-04-09 20:35:24,442 - __main__ - INFO - Detected foods: {'bottle': {'calories': 300.0, 'count': 2, 'weight': 200, 'calories_per_100g': 150}, 'pizza': {'calories': 150.0, 'count': 1, 'weight': 100, 'calories_per_100g': 150}, 'dining table': {'calories': 150.0, 'count': 1, 'weight': 100, 'calories_per_100g': 150}}
+2025-04-09 20:35:24,442 - __main__ - INFO - Total estimated calories: 600.0
+2025-04-09 20:35:29,290 - __main__ - INFO - YOLO model loaded successfully
+2025-04-09 20:35:29,292 - __main__ - INFO - Application started
+2025-04-09 20:35:29,319 - __main__ - INFO - Serving processed image
+2025-04-09 20:36:31,578 - __main__ - INFO - Received image detection request
+2025-04-09 20:36:33,431 - __main__ - INFO - Detected foods: {'bottle': {'calories': 300.0, 'count': 2, 'weight': 200, 'calories_per_100g': 150}, 'pizza': {'calories': 150.0, 'count': 1, 'weight': 100, 'calories_per_100g': 150}, 'dining table': {'calories': 150.0, 'count': 1, 'weight': 100, 'calories_per_100g': 150}}
+2025-04-09 20:36:33,431 - __main__ - INFO - Total estimated calories: 600.0
+2025-04-10 14:09:49,304 - __main__ - INFO - YOLO model loaded successfully
+2025-04-10 14:09:49,328 - __main__ - INFO - Application started
+2025-04-10 14:09:53,530 - __main__ - INFO - YOLO model loaded successfully
+2025-04-10 14:09:53,533 - __main__ - INFO - Application started
+2025-04-10 14:12:50,958 - __main__ - INFO - Received image detection request
+2025-04-10 14:12:56,328 - __main__ - INFO - Detected foods: {'bottle': {'calories': 300.0, 'count': 2, 'weight': 200, 'calories_per_100g': 150}, 'pizza': {'calories': 150.0, 'count': 1, 'weight': 100, 'calories_per_100g': 150}, 'dining table': {'calories': 150.0, 'count': 1, 'weight': 100, 'calories_per_100g': 150}}
+2025-04-10 14:12:56,329 - __main__ - INFO - Total estimated calories: 600.0
+2025-04-10 14:12:56,444 - __main__ - INFO - Serving processed image
+2025-04-10 16:26:43,227 - __main__ - INFO - YOLO model loaded successfully
+2025-04-10 16:26:43,231 - __main__ - INFO - Application started
+2025-04-10 16:26:47,888 - __main__ - INFO - YOLO model loaded successfully
+2025-04-10 16:26:47,891 - __main__ - INFO - Application started
+2025-04-10 16:27:06,724 - __main__ - INFO - YOLO model loaded successfully
+2025-04-10 16:27:06,727 - __main__ - INFO - Application started
+2025-04-10 16:45:44,279 - __main__ - INFO - Received image detection request
+2025-04-10 16:46:01,867 - __main__ - INFO - YOLO model loaded successfully
+2025-04-10 16:46:01,878 - __main__ - INFO - Application started
+2025-04-10 16:46:02,003 - __main__ - INFO - Received image detection request
+2025-04-10 16:46:14,962 - __main__ - INFO - YOLO model loaded successfully
+2025-04-10 16:46:14,969 - __main__ - INFO - Application started
+2025-04-10 16:46:15,077 - __main__ - INFO - Received image detection request
+2025-04-10 16:46:26,167 - __main__ - INFO - YOLO model loaded successfully
+2025-04-10 16:46:26,176 - __main__ - INFO - Application started
+2025-04-10 16:46:26,286 - __main__ - INFO - Received image detection request
+2025-04-10 16:46:37,071 - __main__ - INFO - YOLO model loaded successfully
+2025-04-10 16:46:37,079 - __main__ - INFO - Application started
+2025-04-10 16:46:45,144 - __main__ - INFO - Received image detection request
+2025-04-10 16:46:56,649 - __main__ - INFO - YOLO model loaded successfully
+2025-04-10 16:46:56,654 - __main__ - INFO - Application started
+2025-04-10 16:46:56,719 - __main__ - INFO - Received image detection request
+2025-04-10 16:47:08,785 - __main__ - INFO - YOLO model loaded successfully
+2025-04-10 16:47:08,794 - __main__ - INFO - Application started
+2025-04-10 16:47:08,899 - __main__ - INFO - Received image detection request
+2025-04-10 16:47:13,095 - __main__ - INFO - Detected foods: {'bottle': {'calories': 300.0, 'count': 2, 'weight': 200, 'calories_per_100g': 150}, 'pizza': {'calories': 150.0, 'count': 1, 'weight': 100, 'calories_per_100g': 150}, 'dining table': {'calories': 150.0, 'count': 1, 'weight': 100, 'calories_per_100g': 150}}
+2025-04-10 16:47:13,097 - __main__ - INFO - Total estimated calories: 600.0
+2025-04-10 16:47:13,441 - __main__ - INFO - Serving processed image
+2025-04-10 16:48:18,477 - __main__ - INFO - Received image detection request
+2025-04-10 16:48:18,911 - __main__ - INFO - Detected foods: {'banana': {'calories': 267.0, 'count': 3, 'weight': 300, 'calories_per_100g': 89}}
+2025-04-10 16:48:18,911 - __main__ - INFO - Total estimated calories: 267.0
+2025-04-10 16:48:18,966 - __main__ - INFO - Serving processed image
+2025-04-10 16:49:57,271 - __main__ - INFO - Received image detection request
+2025-04-10 16:49:58,105 - __main__ - INFO - Detected foods: {'banana': {'calories': 267.0, 'count': 3, 'weight': 300, 'calories_per_100g': 89}}
+2025-04-10 16:49:58,107 - __main__ - INFO - Total estimated calories: 267.0
+2025-04-10 16:49:58,156 - __main__ - INFO - Serving processed image
+2025-04-10 16:51:45,729 - __main__ - INFO - Received manual entry request
+2025-04-10 16:51:45,730 - __main__ - INFO - Manual entry completed with case-insensitive match
+2025-04-10 17:15:31,478 - __main__ - INFO - Received image detection request
+2025-04-10 17:15:32,446 - __main__ - INFO - Detected foods: {'bottle': {'calories': 300.0, 'count': 2, 'weight': 200, 'calories_per_100g': 150}, 'pizza': {'calories': 150.0, 'count': 1, 'weight': 100, 'calories_per_100g': 150}, 'dining table': {'calories': 150.0, 'count': 1, 'weight': 100, 'calories_per_100g': 150}}
+2025-04-10 17:15:32,455 - __main__ - INFO - Total estimated calories: 600.0
+2025-04-10 17:15:32,481 - __main__ - INFO - Serving processed image
+2025-04-11 06:42:42,481 - __main__ - INFO - YOLO model loaded successfully
+2025-04-11 06:42:42,495 - __main__ - INFO - Application started
+2025-04-11 06:42:47,805 - __main__ - INFO - YOLO model loaded successfully
+2025-04-11 06:42:47,807 - __main__ - INFO - Application started
+2025-04-11 06:43:00,026 - __main__ - INFO - Received image detection request
+2025-04-11 06:43:07,573 - __main__ - INFO - YOLO model loaded successfully
+2025-04-11 06:43:07,575 - __main__ - INFO - Application started
+2025-04-11 06:43:07,622 - __main__ - INFO - Received image detection request
+2025-04-11 06:43:16,236 - __main__ - INFO - YOLO model loaded successfully
+2025-04-11 06:43:16,239 - __main__ - INFO - Application started
+2025-04-11 06:43:16,280 - __main__ - INFO - Received image detection request
+2025-04-11 06:43:24,041 - __main__ - INFO - YOLO model loaded successfully
+2025-04-11 06:43:24,043 - __main__ - INFO - Application started
+2025-04-11 06:43:24,091 - __main__ - INFO - Received image detection request
+2025-04-11 06:43:32,308 - __main__ - INFO - YOLO model loaded successfully
+2025-04-11 06:43:32,311 - __main__ - INFO - Application started
+2025-04-11 06:43:32,359 - __main__ - INFO - Received image detection request
+2025-04-11 06:43:41,774 - __main__ - INFO - YOLO model loaded successfully
+2025-04-11 06:43:41,776 - __main__ - INFO - Application started
+2025-04-11 06:43:41,824 - __main__ - INFO - Received image detection request
+2025-04-11 06:43:44,740 - __main__ - INFO - Detected foods: {'Pizza': {'count': 1, 'weight': 100, 'calories_per_100g': 285}, 'Soda': {'count': 3, 'weight': 990, 'calories_per_100g': 140}}
+2025-04-11 06:43:44,793 - __main__ - INFO - Serving processed image
+2025-04-11 06:44:43,101 - __main__ - INFO - Received image detection request
+2025-04-11 06:44:43,485 - __main__ - INFO - Detected foods: {'burger': {'count': 1, 'weight': 100, 'calories_per_100g': 295}}
+2025-04-11 06:44:43,546 - __main__ - INFO - Serving processed image
+2025-04-11 06:59:39,052 - __main__ - INFO - Received image detection request
+2025-04-11 06:59:40,533 - __main__ - INFO - Detected foods: {'burger': {'count': 1, 'weight': 100, 'calories_per_100g': 295}}
+2025-04-11 06:59:40,604 - __main__ - INFO - Serving processed image
+2025-04-11 07:37:24,864 - __main__ - INFO - YOLO model loaded successfully
+2025-04-11 07:37:24,869 - __main__ - INFO - Application started
+2025-04-11 07:37:29,415 - __main__ - INFO - YOLO model loaded successfully
+2025-04-11 07:37:29,418 - __main__ - INFO - Application started
+2025-04-11 07:44:59,172 - __main__ - INFO - YOLO model loaded successfully
+2025-04-11 07:44:59,177 - __main__ - INFO - Application started
+2025-04-11 07:46:40,463 - __main__ - INFO - YOLO model loaded successfully
+2025-04-11 07:46:40,465 - __main__ - INFO - Application started
+2025-04-11 07:53:32,731 - __main__ - INFO - Received image detection request
+2025-04-11 07:53:42,473 - __main__ - INFO - YOLO model loaded successfully
+2025-04-11 07:53:42,477 - __main__ - INFO - Application started
+2025-04-11 07:53:42,552 - __main__ - INFO - Received image detection request
+2025-04-11 07:53:49,465 - __main__ - INFO - YOLO model loaded successfully
+2025-04-11 07:53:49,467 - __main__ - INFO - Application started
+2025-04-11 07:53:49,503 - __main__ - INFO - Received image detection request
+2025-04-11 07:53:55,323 - __main__ - INFO - YOLO model loaded successfully
+2025-04-11 07:53:55,327 - __main__ - INFO - Application started
+2025-04-11 07:53:55,363 - __main__ - INFO - Received image detection request
+2025-04-11 07:54:00,966 - __main__ - INFO - YOLO model loaded successfully
+2025-04-11 07:54:00,967 - __main__ - INFO - Application started
+2025-04-11 07:54:01,000 - __main__ - INFO - Received image detection request
+2025-04-11 07:54:02,607 - __main__ - INFO - Detected foods: {'burger': {'count': 1, 'weight': 100, 'calories_per_100g': 295}}
+2025-04-11 07:54:02,662 - __main__ - INFO - Serving processed image
+2025-04-11 07:54:07,971 - __main__ - INFO - YOLO model loaded successfully
+2025-04-11 07:54:07,973 - __main__ - INFO - Application started
+2025-04-11 08:03:45,797 - __main__ - INFO - Received image detection request
+2025-04-11 08:03:52,376 - __main__ - INFO - Detected foods: {'burger': {'count': 1, 'weight': 100, 'calories_per_100g': 295}}
+2025-04-11 08:03:52,412 - __main__ - INFO - Serving processed image
+2025-04-11 08:05:50,300 - __main__ - INFO - Received manual entry request
+2025-04-11 08:05:50,683 - __main__ - INFO - Manual entry completed with case-insensitive match
+2025-04-11 08:34:18,533 - __main__ - INFO - Received manual entry request
+2025-04-11 08:34:18,901 - __main__ - INFO - Manual entry completed with estimate
+2025-04-11 09:52:38,875 - __main__ - INFO - YOLO model loaded successfully
+2025-04-11 09:52:38,895 - __main__ - INFO - Application started
+2025-04-11 09:52:42,996 - __main__ - INFO - YOLO model loaded successfully
+2025-04-11 09:52:43,000 - __main__ - INFO - Application started
+2025-04-11 09:52:55,481 - __main__ - INFO - Received manual entry request
+2025-04-11 09:52:55,482 - __main__ - INFO - Manual entry completed with estimate
+2025-04-11 10:03:03,745 - __main__ - INFO - YOLO model loaded successfully
+2025-04-11 10:03:03,769 - __main__ - INFO - Application started
+2025-04-11 10:03:07,067 - __main__ - INFO - YOLO model loaded successfully
+2025-04-11 10:03:07,070 - __main__ - INFO - Application started
+2025-04-11 10:05:49,922 - __main__ - INFO - YOLO model loaded successfully
+2025-04-11 10:05:49,926 - __main__ - INFO - Application started
+2025-04-11 10:05:54,229 - __main__ - INFO - YOLO model loaded successfully
+2025-04-11 10:05:54,232 - __main__ - INFO - Application started
+2025-04-11 10:10:02,554 - __main__ - INFO - Received manual entry request
+2025-04-11 10:10:02,566 - __main__ - INFO - Manual entry completed with estimate
+2025-04-11 10:16:07,144 - __main__ - INFO - YOLO model loaded successfully
+2025-04-11 10:16:07,148 - __main__ - INFO - Application started
+2025-04-11 10:16:11,238 - __main__ - INFO - YOLO model loaded successfully
+2025-04-11 10:16:11,240 - __main__ - INFO - Application started
+2025-04-11 10:19:23,324 - __main__ - INFO - YOLO model loaded successfully
+2025-04-11 10:19:23,327 - __main__ - INFO - Application started
+2025-04-11 10:21:42,433 - __main__ - INFO - Received manual entry request
+2025-04-11 10:21:42,434 - __main__ - INFO - Manual entry completed with estimate
+2025-04-11 10:38:10,881 - __main__ - INFO - Received manual entry request
+2025-04-11 10:38:10,994 - __main__ - INFO - Manual entry completed with estimate
+2025-04-11 18:54:53,025 - __main__ - INFO - YOLO model loaded successfully
+2025-04-11 18:54:53,037 - __main__ - INFO - Application started
+2025-04-11 18:54:57,937 - __main__ - INFO - YOLO model loaded successfully
+2025-04-11 18:54:57,939 - __main__ - INFO - Application started
+2025-04-11 18:55:41,884 - __main__ - INFO - Received image detection request
+2025-04-11 18:55:50,786 - __main__ - INFO - YOLO model loaded successfully
+2025-04-11 18:55:50,792 - __main__ - INFO - Application started
+2025-04-11 18:55:50,897 - __main__ - INFO - Received image detection request
+2025-04-11 18:56:00,946 - __main__ - INFO - YOLO model loaded successfully
+2025-04-11 18:56:00,950 - __main__ - INFO - Application started
+2025-04-11 18:56:00,988 - __main__ - INFO - Received image detection request
+2025-04-11 18:56:08,991 - __main__ - INFO - YOLO model loaded successfully
+2025-04-11 18:56:08,993 - __main__ - INFO - Application started
+2025-04-11 18:56:09,036 - __main__ - INFO - Received image detection request
+2025-04-11 18:56:17,058 - __main__ - INFO - YOLO model loaded successfully
+2025-04-11 18:56:17,063 - __main__ - INFO - Application started
+2025-04-11 18:56:17,103 - __main__ - INFO - Received image detection request
+2025-04-11 18:56:25,217 - __main__ - INFO - YOLO model loaded successfully
+2025-04-11 18:56:25,220 - __main__ - INFO - Application started
+2025-04-11 18:56:25,261 - __main__ - INFO - Received image detection request
+2025-04-11 18:56:27,231 - __main__ - INFO - Detected foods: {'burger': {'count': 1, 'weight': 100, 'calories_per_100g': 295}}
+2025-04-11 18:56:27,285 - __main__ - INFO - Serving processed image
+2025-04-11 18:56:41,135 - __main__ - INFO - Received image detection request
+2025-04-11 18:56:41,480 - __main__ - INFO - Detected foods: {'Pizza': {'count': 1, 'weight': 100, 'calories_per_100g': 285}, 'Soda': {'count': 3, 'weight': 990, 'calories_per_100g': 140}}
+2025-04-11 18:57:45,363 - __main__ - INFO - Received image detection request
+2025-04-11 18:57:45,664 - __main__ - INFO - Detected foods: {'burger': {'count': 1, 'weight': 100, 'calories_per_100g': 295}}
+2025-04-11 18:57:45,719 - __main__ - INFO - Serving processed image
+2025-04-12 08:31:38,995 - __main__ - INFO - YOLO model loaded successfully
+2025-04-12 08:31:39,011 - __main__ - INFO - Application started
+2025-04-12 08:31:42,424 - __main__ - INFO - YOLO model loaded successfully
+2025-04-12 08:31:42,426 - __main__ - INFO - Application started
+2025-04-12 08:34:01,544 - __main__ - INFO - Received image detection request
+2025-04-12 08:34:09,644 - __main__ - INFO - YOLO model loaded successfully
+2025-04-12 08:34:09,646 - __main__ - INFO - Application started
+2025-04-12 08:34:09,682 - __main__ - INFO - Received image detection request
+2025-04-12 08:34:16,832 - __main__ - INFO - YOLO model loaded successfully
+2025-04-12 08:34:16,836 - __main__ - INFO - Application started
+2025-04-12 08:34:16,870 - __main__ - INFO - Received image detection request
+2025-04-12 08:34:22,579 - __main__ - INFO - YOLO model loaded successfully
+2025-04-12 08:34:22,581 - __main__ - INFO - Application started
+2025-04-12 08:34:22,620 - __main__ - INFO - Received image detection request
+2025-04-12 08:34:28,098 - __main__ - INFO - YOLO model loaded successfully
+2025-04-12 08:34:28,101 - __main__ - INFO - Application started
+2025-04-12 08:34:28,131 - __main__ - INFO - Received image detection request
+2025-04-12 08:34:29,662 - __main__ - INFO - Detected foods: {'Pizza': {'count': 1, 'weight': 100, 'calories_per_100g': 285}, 'Soda': {'count': 3, 'weight': 990, 'calories_per_100g': 140}}
+2025-04-12 08:34:29,705 - __main__ - INFO - Serving processed image
+2025-04-12 08:34:34,497 - __main__ - INFO - YOLO model loaded successfully
+2025-04-12 08:34:34,500 - __main__ - INFO - Application started
+2025-04-21 07:13:32,393 - __main__ - INFO - YOLO model loaded successfully
+2025-04-21 07:13:32,404 - __main__ - INFO - Application started
+2025-04-21 07:13:36,634 - __main__ - INFO - YOLO model loaded successfully
+2025-04-21 07:13:36,637 - __main__ - INFO - Application started
+2025-04-21 07:13:49,181 - __main__ - INFO - Received manual entry request
+2025-04-21 07:13:49,182 - __main__ - INFO - Manual entry completed with estimate
+2025-04-21 07:31:23,699 - __main__ - INFO - YOLO model loaded successfully
+2025-04-21 07:31:23,730 - __main__ - INFO - Application started
+2025-04-21 07:31:29,052 - __main__ - INFO - YOLO model loaded successfully
+2025-04-21 07:31:29,055 - __main__ - INFO - Application started
+2025-04-21 07:31:55,721 - __main__ - INFO - Received manual entry request
+2025-04-21 07:31:55,722 - __main__ - INFO - Manual entry completed with estimate
+2025-07-18 08:53:37,649 - __main__ - ERROR - Error loading YOLO model: Model file not found at D:/success/model/best.pt
+2025-07-18 08:53:37,652 - __main__ - INFO - Application started
+2025-07-18 08:53:43,140 - __main__ - ERROR - Error loading YOLO model: Model file not found at D:/success/model/best.pt
+2025-07-18 08:53:43,143 - __main__ - INFO - Application started

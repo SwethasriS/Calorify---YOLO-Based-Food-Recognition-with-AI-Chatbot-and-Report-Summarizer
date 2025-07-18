@@ -1,0 +1,162 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NutriScan - Food Detection & Calorie Estimation</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <div class="app-container">
+        <header>
+            <h1 id="animated-title">NutriScan</h1>
+            <p class="subtitle">Smart Food Detection & Calorie Estimation</p>
+        </header>
+
+        <div class="main-content">
+            <!-- Left Panel - AI Detection -->
+            <div class="panel panel-left">
+                <div class="panel-header">
+                    <h2><i class="fas fa-camera"></i> AI Detection</h2>
+                    <p>Upload a food image for automatic detection</p>
+                </div>
+
+                <div class="panel-content">
+                    <form id="upload-form" enctype="multipart/form-data">
+                        <div class="file-upload">
+                            <label for="file-input">
+                                <i class="fas fa-cloud-upload-alt"></i>
+                                <span>Choose File</span>
+                            </label>
+                            <input id="file-input" type="file" name="file" accept="image/*" required>
+                            <div id="file-name">No file chosen</div>
+                        </div>
+                        <button type="submit" class="btn-primary">
+                            <i class="fas fa-search"></i> Detect Food
+                        </button>
+                    </form>
+
+                    <div id="image-detection-results" class="results-container hidden">
+                        <h3>Detection Results</h3>
+                        <div class="detected-foods"></div>
+                        <div class="total-calories">
+                            <span>Total Calories: </span>
+                            <span class="calorie-count">0</span> kcal
+                        </div>
+                        <div class="processed-image">
+                            <h4>Processed Image</h4>
+                            <img id="result-image" src="" alt="Processed Image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Panel - Manual Entry -->
+            <div class="panel panel-right">
+                <div class="panel-header">
+                    <h2><i class="fas fa-utensils"></i> Manual Entry</h2>
+                    <p>Manually enter food items and quantities</p>
+                </div>
+
+                <div class="panel-content">
+                    <form id="manual-entry-form">
+                        <div class="input-group">
+                            <label for="food-name">Food Name</label>
+                            <input type="text" id="food-name" name="food-name" placeholder="e.g., Apple, Rice, Pizza..." required>
+                        </div>
+                        <div class="input-group">
+                            <label for="quantity">Quantity (grams)</label>
+                            <input type="number" id="quantity" name="quantity" placeholder="e.g., 100" value="100" min="1" required>
+                        </div>
+                        <button type="submit" class="btn-primary">
+                            <i class="fas fa-calculator"></i> Calculate Calories
+                        </button>
+                    </form>
+
+                    <div id="manual-entry-results" class="results-container hidden">
+                        <h3>Nutrition Information</h3>
+                        <div class="food-info"></div>
+                        <div class="manual-calories">
+                            <span class="food-name"></span>:
+                            <span class="calorie-count">0</span> kcal
+                            <div class="food-actions">
+                                <button class="accept-btn manual-accept">
+                                    <i class="fas fa-check"></i> Add to Total
+                                </button>
+                                <button class="reject-btn manual-reject">
+                                    <i class="fas fa-times"></i> Reject
+                                </button>
+                            </div>
+                        </div>
+                        <div class="data-source">
+                            <span class="source-label">Source: </span>
+                            <span class="source-value"></span>
+                        </div>
+                    </div>
+
+                    <div class="saved-foods">
+                        <h3>Added Foods</h3>
+                        <ul id="saved-foods-list"></ul>
+                        <div class="total-calories">
+                            <span>Total Calories: </span>
+                            <span class="manual-total-calories">0</span> kcal
+                        </div>
+                        <button id="clear-list" class="btn-secondary">
+                            <i class="fas fa-trash-alt"></i> Clear List
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Combined Total Section -->
+        <div class="combined-total">
+            <h2>Total Nutrition</h2>
+            <div class="total-calories">
+                <span>Combined Calories: </span>
+                <span class="combined-calorie-count">0</span> kcal
+            </div>
+            <button class="add-goal-btn">Add to Goal</button>
+
+        </div>
+
+        <!-- Food weight adjustment modal -->
+        <div id="weight-adjustment-modal" class="modal hidden">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Adjust Weight</h3>
+                    <button class="close-modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="food-weight-adjust">
+                        <div class="food-name-display"></div>
+                        <div class="weight-control">
+                            <button class="weight-btn decrease-weight">-</button>
+                            <div class="weight-display">
+                                <input type="number" id="weight-input" min="1" value="100">
+                                <span>grams</span>
+                            </div>
+                            <button class="weight-btn increase-weight">+</button>
+                        </div>
+                        <div class="calories-display">
+                            <span>Calories: </span>
+                            <span class="adjusted-calories">0</span> kcal
+                        </div>
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn-secondary cancel-adjust">Cancel</button>
+                    <button class="btn-primary save-adjust">Save Changes</button>
+                </div>
+            </div>
+        </div>
+
+        <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+
+</html>

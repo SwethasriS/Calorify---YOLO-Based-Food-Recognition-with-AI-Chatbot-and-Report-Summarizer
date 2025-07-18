@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome | Calorify </title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .wrapup-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            gap: 3rem;
+            padding: 3rem;
+        }
+        
+        .wrapup-card {
+            width: 350px;
+            height: 350px;
+            background: #4CAF50;
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+        
+        .wrapup-card h3,
+        .wrapup-card p {
+            color: white;
+        }
+        
+        .wrapup-card:hover {
+            transform: scale(1.05);
+        }
+        
+        .wrapup-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .wrapup-card p {
+            font-size: 1rem;
+        }
+        
+        .user-profile {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-top: 1rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        .user-profile p {
+            margin: 0.5rem 0;
+            color: #333;
+        }
+        
+        .user-profile strong {
+            color: #4CAF50;
+        }
+        
+        .calorie-progress {
+            height: 20px;
+            background-color: #f0f0f0;
+            border-radius: 10px;
+            margin: 1rem 0;
+            overflow: hidden;
+        }
+        
+        .progress-bar {
+            height: 100%;
+            background-color: #4CAF50;
+            transition: width 0.3s ease;
+        }
+        
+        .error {
+            color: #f44336;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">Healthify Me</div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <button id="logout-btn" class="btn">Logout</button>
+            </div>
+        </nav>
+    </header>
+
+    <div class="welcome-message" id="welcomeMessage">
+        <h1>Welcome!</h1>
+        <p id="calorieInfo">Loading your information...</p>
+    </div>
+
+    <div class="wrapup-container">
+        <div class="wrapup-card" onclick="window.location.href='http://localhost:5001'">
+            <h3>NUTRISCAN</h3>
+            <p>Upload an image to detect food items and get nutritional information</p>
+        </div>
+        <div class="wrapup-card" onclick="window.open('http://localhost:5002', '_blank')">
+            <h3>ZEN-BOT</h3>
+            <p>Get instant answers to your health and nutrition questions</p>
+        </div>
+        <div class="wrapup-card" onclick="window.location.href='http://localhost:5003'">
+            <h3>NUTRI-SUMMARIZER</h3>
+            <p>Know your doctor says about your health</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

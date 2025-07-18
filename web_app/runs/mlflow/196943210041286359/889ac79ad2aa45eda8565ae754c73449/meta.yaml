@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/success/runs/mlflow/196943210041286359/889ac79ad2aa45eda8565ae754c73449/artifacts
+end_time: 1741172659407
+entry_point_name: ''
+experiment_id: '196943210041286359'
+lifecycle_stage: active
+run_id: 889ac79ad2aa45eda8565ae754c73449
+run_name: train2
+run_uuid: 889ac79ad2aa45eda8565ae754c73449
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741172501415
+status: 3
+tags: []
+user_id: ASUS

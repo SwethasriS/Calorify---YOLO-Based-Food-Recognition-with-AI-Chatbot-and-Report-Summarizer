@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthify Me - Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">Healthify Me</div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="login.html">Login</a>
+            <a href="signup.html">Sign Up</a>
+        </div>
+    </nav>
+
+    <main class="auth-container">
+        <div class="auth-form">
+            <h2>Create Your Account</h2>
+            <form id="signupForm">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="form-group">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" id="confirm-password" name="confirm-password" required>
+                </div>
+                <div class="form-group">
+                    <label for="calorie-goal">Daily Calorie Goal</label>
+                    <input type="number" id="calorie-goal" name="calorie_goal" min="1000" max="5000" required>
+                </div>
+                <button type="submit" class="btn">Sign Up</button>
+            </form>
+            <p class="auth-switch">Already have an account? <a href="login.html">Login</a></p>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

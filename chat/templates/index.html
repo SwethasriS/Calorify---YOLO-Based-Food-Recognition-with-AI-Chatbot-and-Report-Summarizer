@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZenGuru Chat</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Background patterns -->
+
+
+    <!-- Page transition effect -->
+    <div class="page-transition"></div>
+
+    <div class="chat-header">
+        <div class="logo">
+            <div class="status-indicator"></div>
+            <span class="logo-icon"></span>
+            <h1>ZenGuru</h1>
+        </div>
+    </div>
+
+    <div id="chat-box">
+        <div class="message bot-message">
+            <div>Welcome to ZenGuru! I'm here to help you find balance in fitness, nutrition, and wellness. How can I guide you today?</div>
+            <div class="message-time">12:00 PM</div>
+        </div>
+
+        <!-- Moved typing indicator inside chat box -->
+        <div class="typing-indicator">
+            <div>
+                <div class="typing-label">ZenGuru is thinking</div>
+                <div class="typing-dots">
+                    <div class="typing-dot"></div>
+                    <div class="typing-dot"></div>
+                    <div class="typing-dot"></div>
+                </div>
+                <!-- Treadmill animation moved inside typing indicator -->
+                <div class="treadmill-animation">
+                    <div class="treadmill">
+                        <div class="belt"></div>
+                    </div>
+                    <div class="runner">🏃</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="input-area">
+        <input type="text" id="user-input" placeholder="Ask ZenGuru for wellness guidance..." autofocus />
+        <button onclick="sendMessage()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                <path d="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855H.766l-.452.18a.5.5 0 0 0-.082.887l.41.26.001.002 4.995 3.178 3.178 4.995.002.002.26.41a.5.5 0 0 0 .886-.083l6-15Zm-1.833 1.89L6.637 10.07l-.215-.338a.5.5 0 0 0-.154-.154l-.338-.215 7.494-7.494 1.178-.471-.47 1.178Z"/>
+            </svg>
+            <span>Send</span>
+        </button>
+    </div>
+
+    <script>
+        // Page load animation
+        document.addEventListener('DOMContentLoaded', function() {
+            const pageTransition = document.querySelector('.page-transition');
+            pageTransition.style.opacity = '1';
+
+            setTimeout(() => {
+                pageTransition.style.opacity = '0';
+            }, 300);
+        });
+
+        document.getElementById("user-input").addEventListener("keypress", function(event) {
+            if (event.key === "Enter") {
+                event.preventDefault();
+                sendMessage();
+            }
+        });
+
+        async function sendMessage() {
+            const input = document.getElementById("user-input");
+            const message = input.value.trim();
+            if (!message) return;
+
+            const chatBox = document.getElementById("chat-box");
+            const now = new Date();
+            const timeString = now.toLocaleTimeString([], {
+                hour: '2-digit',
+                minute: '2-digit'
+            });
+
+            // Add user message with ripple effect
+            chatBox.innerHTML += `
+                <div class="message user-message new-message">
+                    <div>${message}</div>
+                    <div class="message-time">${timeString}</div>
+                </div>`;
+
+            input.value = "";
+            chatBox.scrollTop = chatBox.scrollHeight;
+
+            // Show typing indicator with treadmill animation inside the chat box
+            const typingIndicator = document.querySelector('.typing-indicator');
+            typingIndicator.style.display = 'flex';
+
+            try {
+                const res = await fetch("/chat", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify({
+                        message: message
+                    })
+                });
+
+                const data = await res.json();
+
+                // Hide typing indicator after response
+                typingIndicator.style.display = 'none';
+
+                const botTime = new Date().toLocaleTimeString([], {
+                    hour: '2-digit',
+                    minute: '2-digit'
+                });
+
+                // Add bot response with ripple effect
+                chatBox.innerHTML += `
+                    <div class="message bot-message new-message">
+                        <div>${data.reply}</div>
+                        <div class="message-time">${botTime}</div>
+                    </div>`;
+
+                chatBox.scrollTop = chatBox.scrollHeight;
+
+                // Add zen sound effect
+                const zenSound = new Audio('/static/zen-sound.mp3');
+                zenSound.volume = 0.2;
+                zenSound.play().catch(e => console.log('Sound play prevented: User has not interacted with page yet'));
+
+            } catch (error) {
+                // Hide typing indicator on error
+                typingIndicator.style.display = 'none';
+
+                // Show error message
+                chatBox.innerHTML += `
+                    <div class="message bot-message new-message">
+                        <div>I apologize, but I'm having trouble processing your request right now. Let's try again in a moment.</div>
+                        <div class="message-time">${now.toLocaleTimeString([], {
+                            hour: '2-digit',
+                            minute: '2-digit'
+                        })}</div>
+                    </div>`;
+
+                chatBox.scrollTop = chatBox.scrollHeight;
+            }
+        }
+
+        // Add ambient background sounds toggle
+        function toggleAmbientSound() {
+            const ambientSound = document.getElementById('ambient-sound');
+            if (ambientSound.paused) {
+                ambientSound.play();
+                document.getElementById('sound-toggle').innerText = '🔊';
+            } else {
+                ambientSound.pause();
+                document.getElementById('sound-toggle').innerText = '🔇';
+            }
+        }
+    </script>
+
+    <!-- Optional: Zen sound for responses -->
+    <audio id="ambient-sound" loop>
+        <source src="/static/ambient.mp3" type="audio/mpeg">
+    </audio>
+</body>
+
+</html>

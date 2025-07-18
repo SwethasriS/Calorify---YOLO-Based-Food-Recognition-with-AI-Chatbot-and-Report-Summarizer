@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About - Calorify</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #000;
+            color: #39ff14;
+            scroll-behavior: smooth;
+        }
+        /* Header */
+        
+        header {
+            position: sticky;
+            top: 0;
+            background-color: #000;
+            border-bottom: 2px solid #39ff14;
+            box-shadow: 0 0 10px #39ff14;
+            z-index: 1000;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        header h1 {
+            margin: 0;
+            font-size: 1.5rem;
+            text-shadow: 0 0 5px #39ff14;
+        }
+        
+        nav a {
+            margin-left: 1.5rem;
+            color: #39ff14;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        
+        nav a:hover {
+            color: #00ffcc;
+        }
+        /* Container */
+        
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 3rem 1rem;
+            animation: fadeIn 1.5s ease-in;
+        }
+        
+        h2 {
+            text-align: center;
+            text-shadow: 0 0 10px #39ff14;
+        }
+        
+        p,
+        li {
+            line-height: 1.7;
+            font-size: 1.1rem;
+        }
+        
+        .highlight {
+            color: #00ffcc;
+            font-weight: bold;
+        }
+        
+        .section {
+            margin-top: 3rem;
+            animation: slideUp 1s ease;
+        }
+        
+        .glow-box {
+            background-color: rgba(0, 0, 0, 0.6);
+            border: 1px solid #39ff14;
+            padding: 1.5rem;
+            border-radius: 12px;
+            box-shadow: 0 0 15px #39ff14;
+            transition: transform 0.3s;
+        }
+        
+        .glow-box:hover {
+            transform: scale(1.02);
+        }
+        
+        .btn {
+            display: inline-block;
+            margin-top: 2rem;
+            padding: 0.7rem 1.4rem;
+            background: #39ff14;
+            color: #000;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        
+        .btn:hover {
+            background: #00ffcc;
+        }
+        /* Footer */
+        
+        footer {
+            background: #000;
+            color: #39ff14;
+            text-align: center;
+            padding: 1rem;
+            border-top: 2px solid #39ff14;
+            box-shadow: 0 0 10px #39ff14;
+            margin-top: 3rem;
+        }
+        /* Animations */
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        /* Responsive */
+        
+        @media (max-width: 600px) {
+            nav {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+            }
+            nav a {
+                margin: 0.5rem 0;
+            }
+            header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+        
+        .tech-card {
+            background-color: rgba(0, 255, 0, 0.05);
+            color: #39ff14;
+            border: 2px solid #39ff14;
+            border-radius: 12px;
+            padding: 1rem 1.5rem;
+            font-size: 1rem;
+            font-weight: bold;
+            text-align: center;
+            min-width: 120px;
+            transition: all 0.3s ease-in-out;
+            box-shadow: 0 0 12px #39ff14;
+            animation: pulse 3s infinite;
+        }
+        
+        .tech-card:hover {
+            transform: scale(1.1) rotate(2deg);
+            background-color: #00ffcc;
+            color: #000;
+            box-shadow: 0 0 20px #00ffcc;
+        }
+        
+        @keyframes pulse {
+            0%,
+            100% {
+                box-shadow: 0 0 12px #39ff14;
+            }
+            50% {
+                box-shadow: 0 0 20px #00ffcc;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Calorify</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="#features">Features</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section class="section">
+            <h2>Welcome to <span class="highlight">Calorify</span></h2>
+            <div class="glow-box">
+                <p><strong>Calorify</strong> is an AI-powered nutrition assistant that helps users track their calorie intake and get personalized dietary guidance using image detection and intelligent chat interactions. Whether you're managing your diet,
+                    planning meals, or analyzing health reports—Calorify’s got your back!</p>
+            </div>
+        </section>
+
+        <section id="features" class="section">
+            <h2>🚀 Why Choose Calorify?</h2>
+            <div class="glow-box">
+                <ul>
+                    <li>📸 AI-powered <span class="highlight">food image detection</span> with YOLOv8</li>
+                    <li>🤖 <span class="highlight">Smart chatbot assistant</span> for diet tips and queries</li>
+                    <li>📄 <span class="highlight">Medical report summarizer</span> to detect nutrient deficiencies</li>
+                    <li>📊 Track calories via <span class="highlight">manual or auto modes</span></li>
+                    <li>🔐 Secure login with <span class="highlight">JWT + bcrypt</span></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section" id="techstack">
+            <h2>🧠 Our Tech Stack</h2>
+            <div class="glow-box" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1.5rem;">
+
+                <div class="tech-card">🐍 Python</div>
+                <div class="tech-card">🔥 Flask</div>
+                <div class="tech-card">💾 MongoDB</div>
+                <div class="tech-card">🧠 GPT-3.5</div>
+                <div class="tech-card">🎯 YOLOv8</div>
+                <div class="tech-card">🌐 HTML5</div>
+                <div class="tech-card">🎨 CSS3</div>
+                <div class="tech-card">⚡ JavaScript</div>
+                <div class="tech-card">🎨 Tailwind CSS</div>
+
+            </div>
+            <div style="text-align: center;">
+                <a href="index.html" class="btn">⬅ Back to Home</a>
+            </div>
+        </section>
+
+    </div>
+
+    <footer id="contact">
+        <p>© 2025 Calorify — Built with ❤️ by Mithra, Swetha Sri, and Harshni</p>
+        <p>Email: support@calorify.ai | Follow us @calorifyAI</p>
+    </footer>
+
+</body>
+
+</html>

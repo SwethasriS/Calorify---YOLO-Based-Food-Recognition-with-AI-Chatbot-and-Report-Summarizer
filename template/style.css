@@ -1,0 +1,473 @@
+            /* Global Styles */
+            
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Montserrat:wght@400;700&display=swap');
+            /* Wrapup Container Styles */
+            
+            .wrapup-container {
+                display: flex;
+                gap: 2rem;
+                margin: 2rem 0;
+                justify-content: space-between;
+            }
+            
+            .wrapup-card {
+                flex: 1;
+                padding: 1.5rem;
+                background: #f8f9fa;
+                border-radius: 8px;
+                cursor: pointer;
+                transition: all 0.3s ease;
+                text-align: center;
+            }
+            
+            .wrapup-card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
+            
+            .wrapup-card h3 {
+                color: #4CAF50;
+                margin-bottom: 0.5rem;
+            }
+            
+            .wrapup-card p {
+                color: #666;
+                font-size: 0.9rem;
+            }
+            
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: 'Poppins', sans-serif;
+            }
+            
+            h1,
+            h2,
+            h3,
+            h4 {
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 700;
+            }
+            /* Food Detection Styles */
+            
+            .food-detection {
+                margin-top: 2rem;
+                padding: 2rem;
+                background: #f8f9fa;
+                border-radius: 8px;
+            }
+            
+            .food-detection h2 {
+                color: #333;
+                margin-bottom: 1rem;
+            }
+            
+            .food-detection form {
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+            }
+            
+            .food-detection button[type="submit"] {
+                background: #4CAF50;
+                color: white;
+                padding: 0.5rem 1rem;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                transition: background 0.3s;
+            }
+            
+            .food-detection button[type="submit"]:hover {
+                background: #45a049;
+            }
+            
+            .result {
+                margin-top: 1rem;
+                padding: 1rem;
+                background: white;
+                border-radius: 4px;
+            }
+            
+            .result img {
+                max-width: 100%;
+                height: auto;
+                margin-top: 1rem;
+                border-radius: 4px;
+            }
+            
+            body {
+                background-color: #f5f7fa;
+                color: #333;
+                line-height: 1.6;
+            }
+            /* Navigation */
+            
+            nav {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 1rem 2rem;
+                background-color: #4CAF50;
+                color: white;
+            }
+            
+            .logo {
+                font-size: 1.5rem;
+                font-weight: bold;
+            }
+            
+            .nav-links {
+                display: flex;
+                gap: 1.5rem;
+            }
+            
+            .nav-links a {
+                color: white;
+                text-decoration: none;
+                transition: opacity 0.3s;
+            }
+            
+            .nav-links a:hover {
+                opacity: 0.8;
+            }
+            /* Main Content */
+            
+            main {
+                padding: 2rem;
+            }
+            
+            .hero {
+                text-align: center;
+                padding: 4rem 0;
+            }
+            
+            .hero h1 {
+                font-size: 2.5rem;
+                margin-bottom: 1rem;
+                color: #2c3e50;
+            }
+            
+            .hero p {
+                font-size: 1.2rem;
+                margin-bottom: 2rem;
+                color: #7f8c8d;
+            }
+            /* Auth Forms */
+            
+            .auth-container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 70vh;
+            }
+            
+            .auth-form {
+                background: white;
+                padding: 2rem;
+                border-radius: 8px;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                width: 100%;
+                max-width: 400px;
+            }
+            
+            .auth-form h2 {
+                margin-bottom: 1.5rem;
+                color: #2c3e50;
+                text-align: center;
+            }
+            
+            .form-group {
+                margin-bottom: 1.5rem;
+            }
+            
+            .form-group label {
+                display: block;
+                margin-bottom: 0.5rem;
+                color: #7f8c8d;
+            }
+            
+            .form-group input {
+                width: 100%;
+                padding: 0.8rem;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+                font-size: 1rem;
+            }
+            /* Buttons */
+            
+            .btn {
+                display: inline-block;
+                background-color: #4CAF50;
+                color: white;
+                padding: 0.8rem 1.5rem;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                font-size: 1rem;
+                text-decoration: none;
+                transition: background-color 0.3s;
+            }
+            
+            .btn:hover {
+                background-color: #3e8e41;
+            }
+            
+            .btn-secondary {
+                background-color: #3498db;
+            }
+            
+            .btn-secondary:hover {
+                background-color: #2980b9;
+            }
+            
+            .cta-buttons {
+                display: flex;
+                justify-content: center;
+                gap: 1rem;
+                margin-top: 2rem;
+            }
+            
+            .auth-switch {
+                text-align: center;
+                margin-top: 1rem;
+                color: #7f8c8d;
+            }
+            
+            .auth-switch a {
+                color: #3498db;
+                text-decoration: none;
+            }
+            /* About Page */
+            
+            .about-hero {
+                text-align: center;
+                padding: 4rem 0;
+                background-color: #4CAF50;
+                color: white;
+            }
+            
+            .about-hero h1 {
+                font-size: 3rem;
+                margin-bottom: 1rem;
+            }
+            
+            .tagline {
+                font-size: 1.5rem;
+                font-weight: 600;
+                margin-bottom: 0;
+            }
+            
+            .about-content {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                gap: 2rem;
+                max-width: 1200px;
+                margin: 0 auto;
+            }
+            
+            .about-card {
+                background: white;
+                padding: 2rem;
+                border-radius: 8px;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                transition: transform 0.3s;
+            }
+            
+            .about-card:hover {
+                transform: translateY(-5px);
+            }
+            
+            .about-card h2 {
+                color: #4CAF50;
+                margin-bottom: 1rem;
+            }
+            
+            .about-card p {
+                color: #555;
+                line-height: 1.7;
+            }
+            /* Responsive Design */
+            
+            @media (max-width: 768px) {
+                nav {
+                    flex-direction: column;
+                    padding: 1rem;
+                }
+                .nav-links {
+                    margin-top: 1rem;
+                }
+                .hero {
+                    padding: 2rem 0;
+                }
+                .hero h1 {
+                    font-size: 2rem;
+                }
+                .wrapup-container {
+                    flex-direction: column;
+                    gap: 1rem;
+                }
+                .wrapup-card {
+                    width: 100%;
+                }
+            }
+            /* Welcome Page Styles */
+            
+            .welcome-container {
+                max-width: 800px;
+                margin: 2rem auto;
+                padding: 2rem;
+                background: white;
+                border-radius: 8px;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                text-align: center;
+            }
+            
+            .welcome-container h1 {
+                color: #4CAF50;
+                margin-bottom: 1.5rem;
+            }
+            
+            .welcome-features {
+                margin: 2rem 0;
+                padding: 1.5rem;
+                background: #f8f9fa;
+                border-radius: 8px;
+                text-align: left;
+            }
+            
+            .welcome-features h2 {
+                color: #2c3e50;
+                margin-bottom: 1rem;
+                text-align: center;
+            }
+            
+            .welcome-features ul {
+                list-style-type: none;
+                padding: 0;
+            }
+            
+            .welcome-features li {
+                padding: 0.5rem 0;
+                position: relative;
+                padding-left: 1.5rem;
+                margin-bottom: 0.5rem;
+            }
+            
+            .welcome-features li:before {
+                content: "✓";
+                color: #4CAF50;
+                position: absolute;
+                left: 0;
+                font-weight: bold;
+            }
+            
+            #logout-btn {
+                background: #e74c3c;
+                color: white;
+                padding: 0.8rem 1.5rem;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                font-size: 1rem;
+                margin-top: 1.5rem;
+                transition: background-color 0.3s;
+            }
+            
+            #logout-btn:hover {
+                background: #c0392b;
+            }
+            /* Food Results Page Styles */
+            
+            .results-container {
+                max-width: 800px;
+                margin: 2rem auto;
+                padding: 1rem;
+            }
+            
+            .food-item {
+                background: #f8f9fa;
+                border-radius: 8px;
+                padding: 1.5rem;
+                margin-bottom: 1rem;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            }
+            
+            .food-item h3 {
+                color: #2c3e50;
+                margin-top: 0;
+                border-bottom: 1px solid #eee;
+                padding-bottom: 0.5rem;
+            }
+            
+            .food-item p {
+                margin: 0.5rem 0;
+                color: #34495e;
+            }
+            
+            .food-item p strong {
+                color: #2c3e50;
+            }
+            
+            #foodImage {
+                max-width: 100%;
+                border-radius: 8px;
+                margin-bottom: 1.5rem;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
+            
+            .back-btn {
+                display: block;
+                margin: 2rem auto;
+                padding: 0.8rem 1.5rem;
+                background: #3498db;
+                color: white;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                font-size: 1rem;
+                transition: background 0.3s;
+            }
+            
+            .back-btn:hover {
+                background: #2980b9;
+            }
+            /* Welcome Message Styles */
+            
+            .welcome-message {
+                text-align: center;
+                padding: 2rem;
+                background: white;
+                margin: 2rem auto;
+                max-width: 800px;
+                border-radius: 8px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            }
+            
+            .welcome-message h1 {
+                color: #4CAF50;
+                margin-bottom: 1rem;
+                font-size: 2rem;
+            }
+            
+            .welcome-message p {
+                font-size: 1.2rem;
+                color: #333;
+            }
+            /* Navigation Overrides for Welcome Page */
+            
+            .welcome-page nav {
+                background-color: white;
+                color: #333;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            }
+            
+            .welcome-page .nav-links a {
+                color: #333;
+            }
+            
+            .welcome-page .nav-links a:hover {
+                color: #4CAF50;
+                opacity: 1;
+            }
